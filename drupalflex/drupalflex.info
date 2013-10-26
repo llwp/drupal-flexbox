@@ -1,0 +1,22 @@
+name        = Drupal Flex
+description = A mobile-first theme for Drupal 7 based on Flexbox
+screenshot  = 
+
+core        = 7.x
+engine      = phptemplate
+
+stylesheets[all][] = styles/main.css
+scripts[] = js/site.js
+
+regions[header]         = Header
+regions[navigation]     = Navigation bar
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer]         = Footer
+regions[bottom]         = Page bottom
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
